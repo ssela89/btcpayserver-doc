@@ -32,3 +32,5 @@ Once your account has been verified, and credits added, go to the API section an
 6. Visit the domain.
 
 Now you need to wait for blockchain to sync fully. Depending on the plan you used and the number of coins you added, that can take 1-7 days. If you enable CPU utilization, with Bitcoin and LND, it will take 3 days. There is a US$ 3 one-time charge for faster sync if you enable the CPU utilization. The sync pop-up window will disappear when your node fully syncs.
+
+Note: During installation a ssh user is created. This allows you to access your VM after the installation process (for details how to connect see [SSH Lunanode](https://github.com/JeffVandrewJr/patron/blob/master/SSH.md) ). Please note that this is a **potential security risk**. It is advised that you change at least username and password (both!). For better security you should generate a private-public key pair for ssh access. A tutorial can be found here [Tutorial](https://github.com/ssela89/master/blob/master/ssh_btcpay_private_public_key.md) .
